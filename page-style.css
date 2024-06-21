@@ -1,0 +1,70 @@
+body {
+    background-color: bisque;
+    font-family: "Sitka Text";
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Bell MT', serif;
+    font-size: 50px;
+    color: #230D44;
+    margin-bottom: 2rem;
+}
+
+a {
+    color: #61638F;
+    text-decoration: none;
+    transition: all 0.3s linear;
+}
+
+a:hover {
+    color: black;
+    font-size: 16px;
+}
+
+.box {
+    background-color: #FCF7FF;
+    border-radius: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 1rem;
+    padding: 1rem 2rem;
+    width: 60%;
+    max-width: 600px;
+    text-align: left;
+}
+
+.box:hover{
+    background-color: #C4CAD0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+    display: flex;
+    align-items: center;
+}
+
+li i {
+    margin-right: 0.5rem;
+}
+
+p {
+    font-size: 1.2rem;
+    color: #555;
+    margin-top: 2rem;
+}

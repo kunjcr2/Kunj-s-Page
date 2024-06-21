@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cricket</title>
+    <link rel="stylesheet" href="cric-style.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <h1>Click - Cricket</h1>
+        </div>
+    </header>
+    <div class="main-container">
+        <div class="container">
+            <button onclick="score(0)">0</button>
+            <button onclick="score(1)">1</button>
+            <button onclick="score(2)">2</button>
+            <button onclick="score(3)">3</button>
+            <button onclick="score(4)">4</button>
+            <button onclick="score(6)">6</button>
+        </div>
+    </div>
+    <div class="result-container">
+        <div class="score-board">
+            <p id="user-score">Score</p><br>
+            <p id="target-score">Target</p>
+        </div>
+        <div class="announce">
+            <p1>Announce</p1>
+            <br>
+            <p2></p2>
+        </div>
+    </div>
+    <input type="button" value="Reset the Game" id="reset">
+<script src="cric-script.js"></script>
+</body>
+</html>

@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    height: 20vmin;
+    align-content: center;
+    text-align: center;
+    background: black;
+    color: white;
+}
+
+.choice{
+    height: 165px;
+    width: 165px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 50%;
+}
+
+.choice:hover{
+    background: black;
+}
+
+img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.choices{
+    display: flex;
+    height: 40vmin;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.game-container{
+    text-align: center;
+}
+
+.score-board{
+    display: flex;
+    padding: 10px 5px 20px 5px;
+    font-size: 25px;
+    justify-content: center;
+    gap: 40px;
+}
+
+.msg-container{
+    margin-top: 50px;
+}
+
+#msg{
+    background: black;
+    color: white;
+    height: 40px;
+    font-size: 25px;
+    display: inline;
+    padding: 10px;
+    border-radius: 1rem;
+}
